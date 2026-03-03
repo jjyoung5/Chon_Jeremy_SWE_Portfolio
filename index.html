@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of [Your Name] - Software Developer & Designer">
+    <title>[Jeremy Chon] - Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo">JC</a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="index.html" role="menuitem" class="active">Home</a></li>
+                <li role="none"><a href="projects.html" role="menuitem">Projects</a></li>
+                <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I'm</span>
+                    <span class="title-name">Jeremy Chon</span>
+                </h1>
+                <p class="hero-subtitle">Software Engineer</p>
+                <p class="hero-description">
+                    Passionate about building and optimizing software architectures for complex problems. 
+                    Currently studying Software Engineering at UC Irvine, with a focus on 
+                    web development.
+                </p>
+                <div class="hero-cta">
+                    <a href="projects.html" class="btn btn-primary">Projects</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E12AQEud3Ll5MI7cQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1660833954461?e=2147483647&v=beta&t=1e_UbOwhBjrbh6dYElFz-hUdQy2gltC1XWh2NxkigvI" 
+                         alt="Professional headshot of Jeremy Chon" 
+                         class="profile-photo">
+                    <div class="image-decoration"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a software engineering student with a keen interest in creating impactful
+                        digital products and experiences. My journey in tech began with a curiosity 
+                        for the internet, and has evolved into an ever-evolving passion to build solutions that 
+                        make a difference.
+                    </p>
+                    <p>
+                        With experience in full-stack development, UI/UX design, and data analysis, 
+                        I bring a multidisciplinary approach to every project. I believe in writing 
+                        clean, maintainable code and designing interfaces that are both beautiful 
+                        and functional.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Languages</h3>
+                            <ul>
+                                <li>C++</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Frameworks</h3>
+                            <ul>
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>JUnit</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Tools</h3>
+                            <ul>
+                                <li>Git/GitHub</li>
+                                <li>VS Code</li>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Preview -->
+    <section class="featured-projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0azWb7Rl8nurvcSMYBgDVjG0YDP56OGYFaA&s" 
+                             alt="Screenshot of School Project 1">
+                        <div class="project-overlay">
+                            <a href="projects.html" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>School Project 1</h3>
+                        <p>File System GUI Application</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Java Swing</span>
+                            <span class="tag">MVC</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://static.packt-cdn.com/products/9781838648121/graphics/assets/9a5e3a54-0f0e-42a2-ab09-3ab748173cfe.png" 
+                             alt="Screenshot of Weather Dashboard project">
+                        <div class="project-overlay">
+                            <a href="projects.html" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>School Project 2</h3>
+                        <p>Portfolio Website</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="view-all">
+                <a href="projects.html" class="btn btn-outline">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/chonjj" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                            <i class="fab fa-github"></i>
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                        <a href="mailto:chonjj@uci.edu" aria-label="Email contact">
+                            <i class="fas fa-envelope"></i>
+                            <span class="sr-only">Email</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jeremy Chon</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
